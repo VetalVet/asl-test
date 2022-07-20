@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'g400';
+    src: url(Gilroy-Regular.woff) format("woff");
+    font-display: swap;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'g500';
+    src: url(Gilroy-Medium.woff) format("woff");
+    font-display: swap;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'g600';
+    src: url(Gilroy-SemiBold.woff) format("woff");
+    font-display: swap;
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'g700';
+    src: url(Gilroy-Bold.woff) format("woff");
+    font-display: swap;
+    font-weight: 700;
+}

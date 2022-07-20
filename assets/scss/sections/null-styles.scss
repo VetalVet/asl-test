@@ -1,0 +1,61 @@
+// Обнуление, общие стили
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "g400";
+    border: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+    position: absolute;
+    content: "";
+}
+
+body.lock {
+    overflow: hidden;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1680px;
+    margin: 0 auto;
+    @media (max-width: 1600px) {
+        max-width: 1400px;
+    }
+}
+
+button {
+    cursor: pointer;
+}
+input,
+textarea,
+button {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+// Обнуление, общие стили
